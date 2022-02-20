@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Poppins:wght@400;500;700&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.all-button{
+    height: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    background: #DE496C;
+    border-radius: 6px;
+    border:1px solid #DE496C;
+    padding:10px 30px;
+    transition: 1.0s;
+    z-index: 1;
+}
+.all-button:hover{
+    background: #394ae7;
+    border:1px solid #ffffff;
+    transition: 1.0s;
+}
+/* ---- HEADER STYLE START ---- */
+.header{
+    position: relative;
+    background-image:url("../images/inner-bg.jpg") ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.header:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #3648e8, #5964e9, #767ee8, #9198e6, #acb1e1);
+    opacity: .9;
+}
+/* nav style start */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	font-size: 18px;
+    color:#ffffff ;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    color:#ffffff ;
+    font-weight: 400;
+    width: 70px;
+    margin:0px 10px;
+    transition: .5s;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: none !important;
+    border: none !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#DE496C;
+    transition: .5s;
+}
+.header-wrap{
+    padding: 100px 0px;
+}
+.text-area{
+    padding-top: 160px;
+}
+.text-area h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.text-area p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 25px 0px;
+}
+.image-area img{
+    width: 100%;
+}
+.about-us{
+    padding: 100px 0px;
+    background: #ffffff;
+}
+.about-us-text-area h2{
+    font-size:35px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #222D39;
+}
+.about-us-text-area p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #7B7B93;
+    width: 70%;
+    line-height: 30px;
+}
+.about-video{
+	background: url('../images/about_banner_1.jpg');
+	min-height: 350px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 5px;
+	position: relative;
+}
+.about-video:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    background-image: linear-gradient(to right, #4f4ada, #7a4dcd, #9454c0, #a55db6, #b069ad);
+	border-radius: 5px;
+	opacity: 0.5;
+}
+.video-play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+.video-play:hover{
+    opacity: 0.9;
+}
+.fa-play{
+	font-size: 30px;
+	color: #ffffff;
+    padding:25px;
+    background-image: linear-gradient(to right, #3648e8, #5964e9, #767ee8, #9198e6, #acb1e1);
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-left:10px;
+}
+.fa-play:hover{
+	transition: 0.5s;
+    transform:scale(1.1)
+}
+.position{
+    position:relative;
+}
+.about-img{
+    position: absolute;
+    top:65%;
+    left:50%;
+    content: "";
+    padding-bottom: 100px;
+}
+.about-img img{
+    border-radius: 5px;
+    margin-bottom:80px;
+}
+.best-setion{
+    margin-top:20px;
+    padding:100px 0px;
+    text-align: center;
+}
+.best-text-area h2{
+    font-size:35px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #222D39;
+}
+.best-text-area p{
+    font-size: 18px;
+    color: #7B7B93;
+    width: 70%;
+    line-height: 30px;
+    margin:0px auto;
+}
+.best-card-area{
+    padding-top:100px;
+    margin-bottom: 50px;
+}
+.best-card{
+    border:none;
+    padding:20px 15px;
+    transition: 1.0s;
+}
+.best-card img{
+    width:40%;
+    margin-left: 30%;
+    margin-bottom:30px;
+}
+.best-card-body .card-title{
+    font-size:25px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #222D39;
+
+}
+.best-card-body .card-text{
+    font-size: 18px;
+    color: #7B7B93;
+    line-height: 30px;
+}
+.best-card:hover{
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(214,208,217,0.3);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(214,208,217,0.3);
+    box-shadow: 0px 0px 30px 5px rgba(214,208,217,0.3);
+    transition: 1.5s;
+}
+.team-section{
+    padding: 100px 0px;
+    text-align:center;
+    background: #fdfdfd;
+}
+.team-text-area h2{
+    font-size:35px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #222D39;
+}
+.team-text-area p{
+    font-size: 18px;
+    color: #7B7B93;
+    width: 60%;
+    line-height: 30px;
+    margin:0px auto;
+}
+.card-col-md{
+    padding-right: 0px;
+}
+.team-img-area{
+    margin-top:100px;
+}
+.team-card{
+    border:none;
+    background: #ffffff;
+    padding: 10px 20px;
+    margin:0;
+    width:100%;
+}
+.team-card-img{
+    width:70%;
+    border-radius: 10px;
+    position:relative;
+    transition: 1.0s;
+    transform:scale(1.1);
+}
+.team-card-img:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #3648e8, #5964e9, #767ee8, #9198e6, #acb1e1);
+    opacity: .7;
+    visibility: hidden;
+}
+.team-card-body .card-title{
+    margin-top:15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.team-card-body .card-text{
+    font-size: 18px;
+    width:100%;
+    margin:0px;
+}
+.team-icon-list{
+    width:90%;
+    margin:0px auto;
+    margin-bottom:-35px;
+    visibility: hidden;
+}
+.team-icon-list li{
+    border:none;
+    list-style-type: none;
+    margin:10px;
+    float:left;
+}
+.team-icon-list li i{
+    font-size: 16px;
+    padding:10px 10px;
+    color: #3849e8;
+    border: 1px solid #3849e8;
+    border-radius:50%;
+}
+.team-card:hover .card-img{
+    transition: 1.0s;
+    transform:scale();
+}
+.team-card:hover .team-card-img::before{
+    transition: 1.5s;
+    z-index: 1;
+    visibility: visible;
+}
+.team-card:hover .team-icon-list{
+    transition: 1.5s;
+    visibility: visible;
+}
+.btn-div{
+    margin-top: 80px;
+}
+.branding-section{
+    padding:60px 0px;
+}
+.brand-image{
+    margin:30px 10px;
+}
+.brand-image img{
+    width:80%;
+}
+/* ---  FOOTER SECTION STYLE START --- */
+.footer-area{
+    padding:130px 0px 80px 0px;
+    background-image: linear-gradient(to bottom, #a063b4, #9559bd, #8551c7, #6d4bd3, #4547df);
+}
+.footer-sec-one{
+    margin: 0;
+    padding: 0;
+}
+.footer-sec-one img{
+    width:100px;
+    height:30px;
+    margin-bottom: 25px;
+}
+.footer-sec-one p{
+    font-family: Inter;
+    font-size: 14px;
+    color: #F8F8F8;    
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+.footer-sec-one-list ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-sec-one-list ul li{
+    list-style-type: none;
+    float: left;
+    padding:5px 9px;
+    background-color: #000;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa-facebook-f{
+    padding:0px 3px;
+}
+.fa-facebook-f, .fa-twitter, .fa-youtube, .fa-linkedin-in{
+    font-size: 16px ;
+    color: #ffffff;
+}
+.footer-sec-two-list ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-sec-two-list ul li{
+    list-style-type: none;
+    color:#ffffff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-sec-three-list ul{
+    margin: 0;
+    padding:0;
+}
+.footer-sec-three-list ul li{
+    list-style-type: none;
+    color:#ffffff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.footer-sec-four p{
+    font-family: Inter;
+    font-size: 16;
+    color: #F8F8F8;
+}
+.footer-search-box{
+    position: relative;
+    display: flex;
+}
+.footer-search{
+    background: #ffffff;
+    width:74%;
+    border: none;
+    padding: 5px 15px;
+    height:50px;
+    outline:none;
+    color: #DE496C;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+.footer-search:focus{
+    color:#DE496C;
+}
+::placeholder{
+    color: rgb(116, 112, 112);
+}
+.footer-search-btn{
+    position: absolute;
+    top:0;
+    left:56%;
+    transform: translate(-50% -50%);
+    width: 80px;
+    height: 50px;
+    background: #DE496C;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+.footer-search-btn p{
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+}
+/* ---  FOOTER SECTION STYLE END --- */
+
